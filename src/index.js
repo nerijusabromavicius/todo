@@ -6,5 +6,5 @@ api.listen(3000, ()=> {
 });
 
 api.get('/', (req, res) => {
-    res.send("hey");
+    res.send("API send works!");
 });
